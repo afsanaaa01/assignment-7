@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body class="m-auto">
+    <h4>Question-1: What are the difference among the map(), 
+        filter(), forEach(), & find()?
+    </h4>
+   <p>
+    map(): Executes the every element in an array and returns a new array without altering the original array.
+    <br>
+    forEach(): Use to loop through the every element in an array but does not change the array and it returns undefined.
+    <br>
+    filter(): Checks every element in an array to see if it meets a certain criteria or condition and returns a new array with the elements that return truthy for the criteria or satisfy the condition.
+    <br>
+    find(): Executes a function for each array element and returns the element itself that satisfies the condition. The find() method returns undefined if no elements are found.
+   </p>
+   <h4>Question-2: What are the difference among the 
+        local storage, session storage, & cookies?
+    </h4>
+    <p>
+        Local Storage:  Data that the user will need to access later, such as offline data, can be stored in local storage. Data is kept in Local Storage as long as the user does not delete it.
+        <br>
+        Session Storage: The performance of web applications can be greatly enhanced by using session storage. Information is stored in session storage for the duration of the session. Normally, until the user closes the tab or browser.
+        <br>
+        Cookies: Cookies work well for storing data that shouldn't be kept around for a long period, like session IDs. Older browsers can support cookies, which are commonly used as a fallback by frameworks that employ the above indicated Web Storages.
+    </p>
+    <h4>Question-3: What is the event loop? How it works?
+    </h4>
+    <p>
+        Event Loop:  Event loop is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. 
+        <br>
+        The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same process.
+    </p>
+    <h4>Question-4: What is the operation of quizTimer function?
+    </h4>
+    <p>
+        The quizTimer function set the timer by using setInterval method to calculate and show an examinee's total time taken while attempting the quiz.
+    </p>
+    <h4>Question-5: What is the operation of chooseQuiz function?
+    </h4>
+    <p>
+        The chooseQuiz function collect all the chosen quiz answer selected by users and store each answer into an id and display all the correct answer, wrong answer and description in ascending order.
+    </p>
+</body>
+</html>
